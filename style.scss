@@ -1,0 +1,43 @@
+input {
+    background-color: rgba(0, 0, 0, 0.768);
+    width: 80%;
+    height: 50px;
+    color: #00eeff;
+    font-size: 30px;
+    border-radius: 5px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}  
+  @keyframes example {
+    0%   {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+    25%  {background-color:rgb(0, 255, 191); left:200px; top:0px; width: 30%;}
+    50%  {background-color:rgb(0, 255, 115); left:200px; top:200px;}
+    75%  {background-color:rgb(0, 128, 79); left:0px; top:200px;}
+    100% {background-color:rgb(0, 255, 221); left:0px; top:0px;}
+    
+  }
+
+
+li{
+    font-size: 30px;
+    color: rgb(0, 255, 149);
+    background-color: rgba(0, 0, 0, 0.789);
+    width: 50%;
+    text-align: center;
+}
+::placeholder{
+    color: #ffffff;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/44/f0/df/44f0df362bbcf1e1fdbf39190e2a3818.gif);
+
+}
+body {
+    text-shadow: 0 0 3px #56ce00, 0 0 5px #0000FF;
+    background-color: #003d21;
+    color: rgb(0, 255, 166);
+    background-image: url(https://www.xtrafondos.com/wallpapers/hermoso-atardecer-en-la-playa-8459.jpg);
+    background-size: cover;
+
+}
